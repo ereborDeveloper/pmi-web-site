@@ -1,0 +1,741 @@
+#background
+{
+position:relative;
+margin:0 auto;
+width:1200px;
+max-height:1700px;
+background:url(../Резать/основное/подложка.png);
+background-repeat:no-repeat;
+}
+
+#head
+{
+position:relative;
+width:1000px;
+margin:0% auto;
+height:124px;
+background:url(../Резать/шапка/лого.png);
+background-repeat:no-repeat;
+    z-index: 4;
+}
+#head_under_text
+{  z-index: 0;
+position:relative;
+width:828px;
+top:38px;
+left:170px;
+height:72px;
+background:url(../Резать/шапка/подложкаподтекст.png);
+background-repeat:no-repeat;
+}
+#head_text
+{
+width:828px;
+height:72px;
+margin-left:0px;
+background:url(../Резать/шапка/кафедратекст.png);
+background-repeat:no-repeat;
+}
+.head_menu
+{
+color:#191919;
+position:relative;
+margin:50px;
+top:9px;
+}
+.head_menu:hover
+{
+color:#5e5e5e;
+cursor:pointer;
+}
+#menu
+{
+font-family: "Arial Narrow", Arial, sans-serif;
+font-stretch: condensed;
+font-size: 14px;
+position:absolute;
+width:858px;
+height:38px;
+left:158px;
+}
+.title
+{
+text-align:center;
+position:relative;
+top:0px;
+    left:-5px;
+width:100px;
+height:0;
+margin:0 auto;
+font-family: "Elzevir", Elzevir, serif;
+font-size:19pt;
+}
+.titlemenu
+{
+    text-align: center;
+    color:#191919;
+    float:left;
+    z-index: 5;
+    padding:0 20px;
+}
+.titlemenu:hover
+{
+    cursor: pointer;
+
+}
+#slidemenu
+{
+    font-family: "Elzevir", Elzevir, serif;
+    font-size:17pt;
+
+    position:relative;
+    left:407px;
+    height:0;
+    top:-38px;
+}
+#hide{
+    top:110px;
+    left:120px;
+    width:960px;
+    height: 60px;
+    overflow: hidden;
+    position: absolute;
+}
+#left_hide{
+    background-image: url("../hide_slideL.png");
+    position: relative;
+    width:100px;
+    height:60px;
+    z-index: 2;
+}
+#right_hide{
+    position: relative;
+    background-image: url("../hide_slideR.png");
+    left:860px;
+    top:-60px;
+    width:100px;
+    height:60px;
+    z-index: 2;
+}
+.venzel
+{
+    z-index: 1;
+position:relative;
+margin:50px auto 0 auto;
+top:-15px;
+left:-4px;
+width:126px;
+height:30px;
+background:url(../Резать/шапка/вензель2.png);
+background-repeat:no-repeat;
+}
+#content_top_ram
+{
+position:relative;
+top:45px;
+margin:0 auto;
+width:1200px;
+height:5px;
+background:url(../Резать/основное/рамочкаверх.png);
+background-repeat:no-repeat;
+}
+#content_ram
+{
+left:-100px;
+position:relative;
+top:-35px;
+background:url(../Резать/основное/рамочкабок.png);
+}
+#content_back
+{
+left:100px;
+position:relative;
+background:url(../Резать/основное/чертежифон.png);
+background-repeat:no-repeat;
+}
+#main_menu
+{
+height:400px;
+    font-family: Corbel,sans-serif;
+}
+#short_news
+{
+float:left;
+padding-top:6px;
+margin:30px 0 0 130px;
+}
+.short_new
+{
+
+   // border-top:1px #ccc solid;
+color:#191919;
+text-align:center;
+font-size:13px;
+padding:5px 0 0px 0px;
+position:relative;
+margin:2px 0 0 4px;
+width:300px;
+height:30px;
+background:#fff url(../Резать/главная/новости.png);
+background-repeat:no-repeat;
+overflow:hidden;
+
+}
+.inside_short_new
+{
+
+background-color:#fff;
+margin:19px auto;
+padding-bottom:20px;
+height:70px;
+width:260px;
+text-align:justify;
+overflow:hidden;
+text-overflow: ellipsis;
+}
+
+.short_new_title
+{
+cursor:pointer;
+margin:0 auto;
+width:240px;
+height:20px;
+overflow:hidden;
+text-overflow: ellipsis;
+white-space: nowrap;
+}
+#under_news
+{
+float: left;
+width:300px;
+height:100px;
+margin-left:-300px;
+margin-top:297px;
+}
+.under_new
+{
+color:#fff;
+margin:10px auto;
+width:290px;
+height:24px;
+padding:6px 0 0px 0px;
+text-align:center;
+font-stretch: condensed;
+font-size:13px;
+background:url(../Резать/главная/подновостями.png);
+}
+#photo_slider
+{
+cursor:pointer;
+float:right;
+margin:30px 140px 0 0px;
+width:605px;
+height:341px;
+overflow:hidden;
+}
+#news_back
+{
+position:absolute;
+top:427px;
+left:109px;
+width:1000px;
+height:598px;
+background:url(../Резать/новости/подложкапод.png);
+background-repeat:no-repeat;
+    z-index: 0;
+}
+#news
+{
+position:relative;
+top:-12px;
+left:131px;
+width:1000px;
+    height:467px;
+}
+
+.img_news
+{
+    position:absolute;
+}
+.new
+{
+    font-family: Corbel,sans-serif;
+    z-index:-1;
+float:left;
+margin:6px 3px;
+    padding:5px;
+    border:1px #ddd solid;
+background-image:url(../Резать/новости/e.jpg);
+background-repeat:no-repeat;
+    background-position: center;
+height:215px;
+width:215px;
+}
+.new2
+{
+    font-family: Corbel,sans-serif;
+    z-index:-1;
+    float:left;
+    margin:6px 3px;
+    padding:5px;
+    border:1px #ddd solid;
+    background-image:url(../Резать/новости/e.jpg);
+    background-repeat:no-repeat;
+    background-position: center;
+    height:215px;
+    width:215px;
+}
+#new_info:hover ~ #main_new
+{
+
+    background: url(../Резать/новости/подробнее.png);
+    z-index: auto;
+    height:inherit;
+    width:704px;
+    opacity: 1;
+    margin:-215px 0 0 215px;
+    transition-duration: .5s;
+
+}
+#new_info:hover
+{
+    width:906px;
+    background-repeat: repeat-y;
+}
+
+#first_new:hover > #new_info
+{
+    transition-property: height,top;
+    height: 215px;
+    transition-duration: .5s;
+}
+#first_new:hover ~ .new {
+    opacity: 0;
+    transition-duration: .2s;
+}
+.new:hover > .new_info
+{
+    top:45px;
+    height: 170px;
+    transition-duration: .5s;
+}
+.new2:hover > .new_info
+{
+    top:45px;
+    height: 170px;
+    transition-duration: .5s;
+}
+#main_new
+{
+    transition-property:opacity,margin,height;
+    transition-duration: .5s;
+    opacity: 0;
+    height:0px;
+    float:left;
+    margin:0px 0 0px 215px;
+}
+.new:hover .new_info_active_head
+{
+    margin:-2px 0 0 0;
+    color:#000;
+    background-color: #fff;
+    filter: alpha(Opacity=20);
+    height:2px;
+}
+.new2:hover .new_info_active_head
+{
+    margin:-2px 0 0 0;
+    color:#000;
+    background-color: #fff;
+    filter: alpha(Opacity=20);
+    height:2px;
+}
+.new_info_active_head
+{
+    margin-top:-50px;
+    overflow: hidden;
+    z-index:1;
+    position:absolute;
+    transition-duration: .3s;
+    color:#fff;
+    width:215px;
+    height:55px;
+}
+
+#new_info
+{
+    z-index:1;
+    transition-property: height,top;
+    background-repeat: repeat-y;
+    transition-duration: .5s;
+    position: relative;
+    top:0px;
+
+    width:215px;
+}
+.new_info
+{
+    z-index:0;
+    transition-duration: .5s;
+    color:#fff;
+    position: relative;
+    top:215px;
+    background:url(../Резать/новости/90.png);
+    width:215px;
+    height:0px;
+
+}
+.new:hover .text_inside
+{
+    float:right;
+    margin:-170px 0 0px 0;
+    width:195px;
+    padding:10px 10px;
+    //color:#191919;
+    //text-shadow: 0px 0 1px #595959;
+    color:#fff;
+    text-shadow: 0px 0 5px #666;
+    background:url(../Резать/новости/подтекст.png);
+    z-index:3;
+    height:25px;
+}
+.new2:hover .text_inside
+{
+    float:right;
+    margin:-170px 0 0px 0;
+    width:195px;
+    padding:10px 10px;
+//color:#191919;
+//text-shadow: 0px 0 1px #595959;
+    color:#fff;
+    text-shadow: 0px 0 5px #666;
+    background:url(../Резать/новости/подтекст.png);
+    z-index:3;
+    height:25px;
+}
+.text_inside
+{
+    transition-duration: .5s;
+    margin:170px auto 0 auto;
+    z-index:3;
+    background:url(../Резать/Новости/e22.png);
+    color:#000;
+    text-shadow: 0px 0 2px #ddd;
+    padding:10px 10px;
+    height:25px;
+
+}
+#text_inside
+{
+    transition-duration: .5s;
+    margin:120px auto 0 auto;
+    z-index:3;
+    background:url(../Резать/Новости/e22.png);
+    color:#000;
+    text-shadow: 0px 0 2px #ddd;
+    padding:10px 10px;
+    height:75px;
+}
+.new:hover #text_inside
+{
+    float:right;
+    margin:0px 0 0px 0;
+    width:195px;
+    padding:10px 10px;
+//color:#191919;
+//text-shadow: 0px 0 1px #595959;
+    color:#fff;
+    text-shadow: 0px 0 5px #666;
+    background:url(../Резать/новости/подтекст.png);
+    z-index:3;
+    height:195px;
+}
+.tt
+{
+    height:inherit;
+    padding: 10px 10px 0 10px;
+    font-size:13px;
+    width:195px;
+    overflow: hidden;
+}
+
+.new:hover .span_n
+{
+    white-space: nowrap;
+    overflow:hidden !important;
+}
+
+.span_n
+{
+    height: inherit;
+    display: inline-block;
+    overflow:hidden;
+    font-size:16px;
+    text-overflow: ellipsis;
+    padding-left: 5px;
+    width: 185px;
+}
+.span_t
+{
+
+    padding-left: 5px;
+    width: 185px;
+    height: 150px;
+    display: inline-block;
+    overflow:hidden;
+    text-overflow: ellipsis;
+}
+#span_m
+{
+    color:#fff;
+    padding:10px 20px;
+    font-size:13px;
+    width: 670px;
+    height: inherit;
+    text-align: justify;
+    display: block;
+    overflow:hidden;
+    text-overflow: ellipsis;
+}
+#arch {
+    color: #191919;
+    float: left;
+    margin-top: 2px;
+    text-decoration: underline;
+    cursor: pointer;
+    margin-left: 414px;
+}
+#arch:hover{
+    color:#5e5e5e;
+}
+#slideshow{
+    border:1px #ddd solid;
+    padding:5px;
+    width: 605px;
+    height:341px;
+    float:right;
+    margin:30px 140px 0 0;
+    z-index:0;
+    overflow: hidden;
+}
+.slides
+{
+    width: inherit;
+    height: inherit;
+    overflow: hidden;
+}
+.fade{
+    -webkit-animation-name: fade;
+    -webkit-animation-duration:1.7s;
+    animation-name:fade;
+    animation-duration:1.7s;
+}
+/*@-webkit-keyframes fade{
+	0%{opacity:0.4;}
+	100%{opacity:1;}
+}*/
+@keyframes fade{
+    from{opacity:0;background: #969;}
+    to{opacity:1;background: #fff;}
+}
+.gallerey
+{
+    position: relative;
+
+    width:605px;
+    height:341px;
+    z-index:0;
+}
+.gal_text
+{
+    cursor: pointer;
+    color:#fff;
+    background: url(../Резать/новости/подтекст.png);
+    position: relative;
+    margin-top: -50px;
+    padding:15px 20px;
+    height:50px;
+}
+.gal_text:hover
+{
+    text-decoration: underline;
+}
+
+#spin
+{
+    position:absolute;
+    top:31px;
+    right: 144px;
+    z-index: 3;
+    color: #fff;
+}
+.gal_click
+{
+    padding: 1px 5px 5px 5px;
+    cursor: pointer;
+    background: url(../Резать/новости/подтекст.png);
+}
+#footer
+{
+    z-index: -1;
+    margin: 0px auto 0 13px;
+    width: 980px;
+    height: 180px;
+    background: url(../Резать/основное/футер.png);
+    position: relative;
+    top: 10px;
+    left:185px;
+}
+#footer_content
+{
+    text-align: right;
+    margin-left: 200px;
+    z-index: 5;
+    margin-top: -185px;
+    float: left;
+}
+.footer_h
+{
+    margin:20px 0 8px 0;
+    border-bottom: 1px #ccc solid;
+}
+.footer_ul
+{
+    font-size:14px;
+    color:#fff;
+    float:left;
+    height:100px;
+    width: 194px;
+}
+.footer_ul li
+{
+    list-style-type: none;
+    color:#ccc;
+    font-size:12px;
+}
+.footer_ul li:hover
+{
+    color:#fff;
+    cursor: pointer;
+}
+#whale
+{
+    cursor: pointer;
+    background-image:url("../whale.png");
+    background-repeat: no-repeat;
+    float:left;
+    margin: 35px 0 0 35px;
+    height: 107px;
+    width:165px;
+    padding-bottom: 10px;
+}
+
+#dwhale
+{
+    border-bottom: 1px #ccc solid;
+    width:197px;
+    float:left;
+    margin-left:34px;
+    padding-right: 10px;
+
+}
+.under_whale
+{
+    font-size: 10px;
+    margin: 0 223px 0 0px;
+    color: #ccc;
+    float: right;
+}
+#ramR
+{
+    background: url("../Резать/текст/рам3R.png");
+    background-repeat: repeat-y;
+    background-position: right;
+    margin:0 auto;
+    position: relative;
+    top:90px;
+    left:15px;
+    width:869px;
+}
+#text{
+    text-align: justify;
+    top:-35px;
+    left:-15px;
+    width:700px;
+    margin:0 auto;
+    position: relative;
+    //background-color: rgba(230,230,250,0.12);
+    padding:5px 40px 0px 40px;
+
+}
+.about
+{
+    opacity: 0;
+    position: relative;
+    font-size:15px;
+}
+.pt{
+    text-indent:60px;
+
+}
+.sign{
+    font-style: italic;
+    margin:0px 0 -30px 0;
+    float:right;
+    width:380px;
+    text-align: right;
+}
+#dtext
+{
+    position: relative;
+    width:869px;
+    left:163px;
+    padding:0 0 65px 0;
+}
+#ramka_text_t{
+    background:url("../Резать/текст/рамкав.png");
+    width:869px;
+    height:67px;
+    position: absolute;
+    top:30px;
+}
+#ramka_text_b{
+    background:url("../Резать/текст/рамкан.png");
+    width:869px;
+    position: relative;
+    height:67px;
+    top:70px;
+}
+#column
+{
+    background: url("../Резать/основное/колонна.png");
+    width: 451px;
+    height:382px;
+    position: relative;
+    margin-left:950px;
+    margin-top:-388px;
+    z-index:-2;
+}
+#sostav
+{
+    list-style-type: none;
+    left:-15px;
+    position: relative;
+}
+#sostav li
+{
+    padding:5px;
+    text-align: center;
+}
+a{
+    color:inherit;
+    text-decoration: none;
+}
+
+body
+{
+    width:1366px;
+    font-family:Corbel, 'Arial', sans-serif;
+    margin:0 auto;
+    height: auto;
+}
